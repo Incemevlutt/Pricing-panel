@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #b1c6ee;
+
+}
+
+.single-price {
+  padding-bottom: 25px;
+  background: #5b89dd
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 100px;
+  background: rgb(130, 173, 214);
+  padding: 30px 50px;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.single-price a{
+    background-color: #5e7fbd;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+.single-price:hover {
+	cursor: pointer;
+	box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+	transform: scale(1.04);
+}
+
+/*monthly price */
+.value{
+    color: black;
+	display: inline-block;
+	width: 15rem;
+	height: 5rem;
+	padding: 15px;
+	border-top: none;
+	border-bottom: none;
+	position: relative;
+    text-align: center;
+}
+
+.title{
+    display: inline-block;
+    color: black;
+    width: 5rem;
+    height: 1.5rem;
+    padding: 15px;
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+}
+.deals{
+    display: inline-block;
+    color: black;
+    padding: 15px;
+    position: relative;
+}
